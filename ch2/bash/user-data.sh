@@ -22,7 +22,7 @@ const server = http.createServer((req, res) => {
 # using port 80 as it's the port opened in the security group
 const port = process.env.PORT || 80;
 server.listen(port, () => {
-  console.log(`Server running at http://localhost:${port}/`);
+  console.log(`Server running at http://localhost:${port}`);
 });
 EOF
 
